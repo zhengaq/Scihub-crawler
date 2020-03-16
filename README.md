@@ -4,14 +4,18 @@
 
 This Jupyter Notebook is used to crawl data from sci-hub.
 
-## How it works
+## How to install
 
-The script is wrote in Python. 
-It uses selenium to manipulate a web-driver, which hosts and controls a chrome web browser. 
+The script is wrote in Python, and the following guidance works for macOs.
+The underlying philosophy is using selenium to manipulate a web-driver, which hosts and controls a chrome web browser. 
+
 To run this stuff:
-- you need to install Python 3.6+ (installing with [Anaconda](https://www.anaconda.com/distribution/) is recommended!)
-- you need to install jupyter (included in anaconda)
-- you need to install chrome (almost any version works)
-- you need to install [chrome webdriver](https://chromedriver.chromium.org/downloads) (w.r.t. the corresponding chrome version)
-- you need to install [selenium](https://selenium-python.readthedocs.io/), run `pip install selenium`
-- download the `Downloader.ipynb` to a local destination, and run `jupyter notebook` in command line under the same destination. Then open `downloader` at the pop-up chrome page and then start crawling (specific guidance is included in the notebook)
+- install Python 3.6+ (installing with [Anaconda](https://www.anaconda.com/distribution/) is recommended!)
+- install jupyter (included in anaconda, so no need to download separately if you've installed anaconda)
+- install chrome (practically any version works)
+- install [chrome webdriver](https://chromedriver.chromium.org/downloads)
+  - download the chrome webdriver and run `sudo cp chromedriver /usr/local/bin/` in command line (terminal)
+- install [selenium](https://selenium-python.readthedocs.io/)
+  - run `pip install selenium` in command line
+- download the `Downloader.ipynb` to a local destination, where you keep the targeted list of article names. Then run `jupyter notebook` in command line under the same destination
+- open `downloader` at the pop-up chrome page and start crawling (specific guidance is included in the notebook)
