@@ -14,4 +14,4 @@ To run this stuff:
 - you need to install chrome (almost any version works)
 - you need to install [chrome webdriver](https://chromedriver.chromium.org/downloads) (w.r.t. the corresponding chrome version)
 - you need to install [selenium](https://selenium-python.readthedocs.io/), run `pip install selenium`
-- run `jupyter notebook`, open `downloader` and then start crawling (specific guidance is included in the notebook)
+- download the `Downloader.ipynb` to a local destination, and run `jupyter notebook` in command line under the same destination. Then open `downloader` at the pop-up chrome page and then start crawling (specific guidance is included in the notebook)
