@@ -11,6 +11,7 @@ The underlying philosophy is using selenium to manipulate a web-driver, which ho
 
 To run this stuff:
 - install Python 3.6+ (installing with [Anaconda](https://www.anaconda.com/distribution/) is recommended!)
+-   make sure to restart terminal if this is your first time installing Anaconda or Python
 - install jupyter (included in anaconda, so no need to download separately if you've installed anaconda)
 - install chrome (practically any version works)
 - install [chrome webdriver](https://chromedriver.chromium.org/downloads)
